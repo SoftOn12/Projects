@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Добро пожаловать в программу "Bunker Generator"! 
+
+Перед созданием персонажей бункера, убедитесь, что в директории с приложением есть .txt файлы с характеристиками персонажей. Файлы должны называться:
+1)ability.txt - для "Спец.возможностей"
+2)health.txt - для "Здоровья"
+3)fear.txt - для "Фобии"
+4)hobby.txt - для "Хобби"
+5)profession.txt - для "Специальности"
+6)kind.txt - для "Человеческой черты"
+7)inventory.txt - для "Инвентаря"
+8)info.txt - для "Доп. Сведений"
+
+В этих файлах должны находиться соответсвующие характеристики по правилу "Одна характеристика в одной строчке текста". Если этих файлов не будет, или они будут пустые - программа выдаст ошибку.
+
+Если все характеристики на месте, то вам достаточно ввести число нужного кол-ва персонажей и нажать кнопку "Создать".
+
+Также существует "Генератор Бункера" и "Генератор Катаклизма" в меню программы. Перед использованием этих кнопок убедитесь, что в директории с приложением есть файлы "cataclysm.txt" и "bunker.txt" с описанием катклизма и бункера соответсвенно (Принцип заполнения файлов такой же, как и с характреистиками персонажей).</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAIw8NWB8vPaYcT2PnGV6A9BlbgPQcSWPnHyo9piMUDVgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAmFRMdIDM6rRWNq/8Pu+n/Ds///w7I//8Pwf//ELv//xGg6f8Wcqv/IS07rSYa
+        Ex0AAAAAAAAAAAAAAAAnGRgcH01VzhmEmf8Zg53/DOH//w/O+v8PyPn/D8P5/w+//P8Pwv//F2iZ/xhg
+        l/8hP1bOJx0YHAAAAAAoHR8CJD1ArR2Ol/8tJyf/Khoa/xSpwP8M5v//DtP4/w/O+f8N1///E5K//yET
+        Ef8gHBz/GWOV/yQ2Qq0pIR8CLB0dViKPlP8tP0D/LyYm/y0kJP8nOz7/Edvs/w7i+/8O3fz/Dsvs/x4v
+        Nv8gGRn/IBsb/x0qMv8bapT/LCEeVitSVacvd3r/Mikp/zAuLv8uLS3/Lh0d/yFzev8O+v//D/X//x1p
+        d/8lFRX/IiAi/yEfIv8gGRj/GlRv/ydIWKcydnnnOHBy/zQlJf8zMTD/MS8v/y8mJv8sNDX/Gba4/xe0
+        tv8nLzD/Jx0e/yUjJP8jISP/IhQS/xpUZv8jZXfnO4GF9jlXWf8zISD/MSoq/y4sLP8uKSn/K1xf/yw3
+        OP8pNTf/JFda/ycgIv8kHyD/Ixob/yQODv8cPUn/H26A9kOGiPZJpaf/QImL/0ieoP9Qtrj/V8PG/1jP
+        0/9cY2T/WmRk/0zR1P9AvsT/Na+0/ymUl/8een7/E5Oa/yB8h/ZFcHHnfP///4H///+H////if///4L/
+        //969vn/brK0/2mcn/9l5eb/X////1n///9Q////QP///y////8ydHXnSVRVp5/y9P+f+/3/lfb6/5D3
+        +f+M////eLm8/2pjY/9qYGD/ao+Q/237//9l9fn/X/T5/1n5/f9Z8fT/RFdYpzEpKFaGubr/rf///6D3
+        +v+d+/7/kezw/29zc/9rZ2f/a2lp/2pgYP9zx8r/dv///231+f9q////W7a5/zYoKFYwKioCSk9Qrans
+        7/+v/v//qP7//4OoqP9rYmL/bmxs/21ra/9rY2P/bnt7/4Hw8v+A/f//d+rt/0VMTq00KysCAAAAAC0l
+        JRxdbGzOrvHz/6fp7f9ta2r/amNi/21paf9tZ2f/amRj/2haWv+CwMH/iO/v/1Jqas4yJiYcAAAAAAAA
+        AAAAAAAALyYmHUxTVK2Fra//iaan/4OXmP97h4j/e4eI/4GVl/+BoaP/d6mr/0lSUq0zJyYdAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAANy8uWFVlZaZqgYHncpCQ9HCPj/Rmf4DnUWNjpjowL1gAAAAAAAAAAAAA
+        AAAAAAAA8A8AAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAB
+        AADAAwAA8A8AAA==
+</value>
+  </data>
+</root>
