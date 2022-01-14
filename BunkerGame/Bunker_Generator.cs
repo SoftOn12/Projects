@@ -6,8 +6,6 @@ using System.Windows.Forms;
 using System.Text;
 using System.Threading.Tasks;
 
-//Сделать катаклизм и характеристик бункера из файла
-//+Прочитать про псевдорандом
 
 namespace Bunker_Game
 {
