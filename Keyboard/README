@@ -1,3 +1,7 @@
-If you wont to test this app, please, use false here 
-//SetAutorunValue(false);
-thx :D
+Простой кейлоггер, который смотрит на тайтлы открытых окон, и если открыто нужная страница в браузере (VK), 
+симвволы с клавиатуры записывают в лог-файл, который храниться в папке C:\Users\user\AppData\Local\Temp\keylogger.log
+При этом в блоке Switch/Case идет обработка специальных символов клавиатуры, чтобы лог-файл был читаемый.
+
+Метод SetAutorunValue загружает программу в автозагрузку через реестр.
+
+Метод IsForegroundWindowInteresting проверяет название активного окна Windows.
