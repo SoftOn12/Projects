@@ -1,0 +1,15 @@
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\bin\Debug\BankAllert.exe.config
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\bin\Debug\BankAllert.exe
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\bin\Debug\BankAllert.pdb
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\BankAllert.csprojAssemblyReference.cache
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\MainWindow.g.cs
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\App.g.cs
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\BankAllert_MarkupCompile.cache
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\BankAllert_MarkupCompile.lref
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\MainWindow.baml
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\BankAllert.g.resources
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\BankAllert.Properties.Resources.resources
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\BankAllert.csproj.GenerateResource.cache
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\BankAllert.csproj.CoreCompileInputs.cache
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\BankAllert.exe
+G:\Работа\АкБарс\PUSH Desktop\BankAllert\BankAllert\obj\Debug\BankAllert.pdb
