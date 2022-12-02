@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Data>
+  <Allert Name="Первый тестовый аллерт">
+    <SubTitle>№00000</SubTitle>
+    <Text>Текст</Text>
+    <SubText>Комментарий</SubText>
+    <Time>00:00</Time>
+  </Allert>
+  <Allert Name="12345">
+    <SubTitle>1</SubTitle>
+    <Text>2</Text>
+    <SubText>3</SubText>
+    <Time>4</Time>
+  </Allert>
+</Data>
